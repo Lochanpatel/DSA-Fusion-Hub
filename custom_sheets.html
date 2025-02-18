@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Sheets</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DSA Fusion Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="question_bank.html">Question Bank</a></li>
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Custom Sheets</h2>
+      <p>
+        Select questions from the question bank and create your own DSA sheet.
+      </p>
+
+      <form>
+        <label for="sheet-name">Sheet Name:</label>
+        <input type="text" id="sheet-name" required />
+
+        <h3>Selected Questions:</h3>
+        <ul>
+          <li>Find the maximum subarray sum <button>Remove</button></li>
+          <li>Implement a stack using queues <button>Remove</button></li>
+        </ul>
+
+        <button type="submit">Save Sheet</button>
+        <button type="button">Export as PDF</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 DSA Fusion Hub. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
